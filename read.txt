@@ -1,2 +1,3 @@
 "action=zapisZmen&akce=289188%23&katedra=KE&predmet=BBEZP&statut=A"
 "action=zapisZmen&akce=289153%23289261%23&katedra=KE&predmet=BELOB&statut=A"
+

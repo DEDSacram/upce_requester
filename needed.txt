@@ -1,0 +1,33 @@
+function vyberPredmetu(prac_zkr, zkr_predm, semestr, statut) {
+    PRAC_ZKR = prac_zkr;
+    ZKR_PREDM = zkr_predm;
+    $.ajax({
+        data: {
+            action: "vyberPredmetu",
+            prac_zkr: (prac_zkr),
+            zkr_predm: (zkr_predm),
+            semestr: semestr,
+            statut: statut,
+            portalLocale: LANG,
+            time: new Date().toString()
+        },
+        success: function(data) {
+            $("#akce").html(data);
+            zobrazitAkce('Rozvrhové akce: ' + prac_zkr + '/' + zkr_predm);
+        }
+    });
+
+}
+
+
+
+
+            <td colspan="3" style="text-align: left; border: none;">
+                <a _title='Sylabus předmětu JC/IPAPF - 2023/2024'
+                   katedra="JC"
+                   predmet="IPAPF"
+                   rok="2023" class="xg_stag_a_det_tool_S"
+                   style="font-weight: normal;" href="javascript: void(0);"
+                   title="Kliknutím na název předmětu (ne zkratku) zobrazíte sylabus předmětu..."
+                   onclick='showSylabus(this);return false;'>Profesní angličtina 2-elektro a IT - B1+</a>
+            </td>
