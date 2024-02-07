@@ -20,7 +20,7 @@ function generateFormattedDate() {
 
 // Test the function
 
-
+// check how it compares to 19-44
 const url = 'https://portal.upce.cz/StagPortletsJSR168/PredzapisServlet';
 const headers = {
     "Host": "portal.upce.cz",
