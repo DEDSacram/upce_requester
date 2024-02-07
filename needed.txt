@@ -31,3 +31,12 @@ function vyberPredmetu(prac_zkr, zkr_predm, semestr, statut) {
                    title="Kliknutím na název předmětu (ne zkratku) zobrazíte sylabus předmětu..."
                    onclick='showSylabus(this);return false;'>Profesní angličtina 2-elektro a IT - B1+</a>
             </td>
+
+
+
+
+                <a title="Zobrazit rozvrhové akce k zapsání."
+         class="xg_stag_a_det_S " href="#"
+         onclick="vyberPredmetu('KRP','BSAM','LS','A');return false;">KRP/BSAM</a>
+    
+<br/>
